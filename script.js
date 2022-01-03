@@ -1,5 +1,5 @@
 /**
- * Exercise 1
+ * Exercise 1.1
  *
  * Create five variables: `card1, card2, card3, card4, card5`.
  *
@@ -10,7 +10,7 @@
  * Answer with the variable `result`.
  *
  */
- console.log('***** Exercise 1 *****');
+ console.log('***** Exercise 1.1 *****');
 let card1 = 4;
 let card2 = 2;
 let card3 = 7;
@@ -21,7 +21,7 @@ let result = card1 + card2 + card3 + card4 + card5;
 console.log('Result: ', result);
 
 /**
-* Exercise 2
+* Exercise 1.2
 *
 * Use an `if statement` to see if the five cards (card1-card5) have a
 * combined sum that is higher than 21.
@@ -35,7 +35,7 @@ console.log('Result: ', result);
 * Answer with your status-variable.
 
 */
-console.log('***** Exercise 2 *****');
+console.log('***** Exercise 1.2 *****');
 let totalCardSum = card1 + card2 + card3 + card4 + card5;
 if (totalCardSum > 21) {
     status = 'busted';
@@ -48,7 +48,7 @@ if (totalCardSum > 21) {
 }
 
 /**
- * Exercise 3
+ * Exercise 1.3
  *
  * Use `if else statements` to see if the combined value of the first three
  * cards (card1-card3) is lower, higher or exactly 21.
@@ -62,7 +62,7 @@ if (totalCardSum > 21) {
  *
  * Write your code below and put the answer into the variable ANSWER.
  */
- console.log('***** Exercise 3 *****');
+ console.log('***** Exercise 1.3 *****');
  totalCardSum = card1 + card2 + card3;
  if (totalCardSum < 21) {
      status = 'safe';
@@ -76,7 +76,7 @@ if (totalCardSum > 21) {
  }
 
  /**
- * Exercise 4
+ * Exercise 1.4
  *
  * Create three variables: `dealer1, dealer2, dealer3`.
  *
@@ -96,7 +96,7 @@ if (totalCardSum > 21) {
  
  */
 
-  console.log('***** Exercise 4 *****');
+  console.log('***** Exercise 1.4 *****');
 let dealer1 = 1;
 let dealer2 = 6;
 let dealer3 = 7;
@@ -117,6 +117,55 @@ if (totalCardSum < 17) {
     console.log(status);
 }
 
+/** ----------------------------------------------------------------------
+ * Section 2 . Switch, case
+ *
+ */
 
+
+
+/**
+ * Exercise 2.1 
+ *
+ * Use a switch-case statement to create a message with the type of fruit and
+ * its color. You have the following type of fruits with a corresponding
+ * color:
+ *
+ * * banana: yellow
+ * * apple: green
+ * * kiwi: green
+ * * plum: purple
+ *
+ * Create a variable `myFruit` which holds the current type of your fruit. If
+ * 'myFruit' is banana, the result should be a variable containing the string
+ * value `"The banana is yellow."`
+ *
+ * Ensure that your switch-case works for all values.
+ *
+ * Answer with the result where `myFruit = "plum"`.
+ *
+ * Write your code below and put the answer into the variable ANSWER.
+ */
+ 
+ console.log('***** Exercise 2.1 *****');
+ let myFruit = "plum";
+ switch (myFruit) {
+     case "banana":
+         ANSWER = "The banana is yellow.";
+         break;
+     case "apple":
+         ANSWER = "The apple is green.";
+         break;
+     case "kiwi":
+         ANSWER = "The kiwi is green.";
+         break;
+     case "plum":
+         ANSWER = "The plum is purple.";
+         break;
+     default:
+         ANSWER = "You sir don't have the right fruit";
+         
+ }
+ console.log(ANSWER);
 
 
