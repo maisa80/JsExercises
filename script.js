@@ -10,7 +10,7 @@
  * Answer with the variable `result`.
  *
  */
- console.log('***** Exercise 1.1 *****');
+console.log('***** Exercise 1.1 *****');
 let card1 = 4;
 let card2 = 2;
 let card3 = 7;
@@ -62,41 +62,41 @@ if (totalCardSum > 21) {
  *
  * Write your code below and put the answer into the variable ANSWER.
  */
- console.log('***** Exercise 1.3 *****');
- totalCardSum = card1 + card2 + card3;
- if (totalCardSum < 21) {
-     status = 'safe';
-     console.log(status);
- } else if (totalCardSum > 21) {
-     status = 'busted';
-     console.log(status);
- } else {
-     status = 'black jack';
-     console.log(status);
- }
+console.log('***** Exercise 1.3 *****');
+totalCardSum = card1 + card2 + card3;
+if (totalCardSum < 21) {
+    status = 'safe';
+    console.log(status);
+} else if (totalCardSum > 21) {
+    status = 'busted';
+    console.log(status);
+} else {
+    status = 'black jack';
+    console.log(status);
+}
 
- /**
- * Exercise 1.4
- *
- * Create three variables: `dealer1, dealer2, dealer3`.
- *
- * Assign the values `1, 6, 7` to the variables.
- *
- * Combine the `if`, `else if`, `else` statements and the operator `AND (&&)`
- * to see what the dealer should do. Combine as you feel needed.
- *
- * If the sum of the dealercards is lower than 17, answer with `"pick"`, if
- * the sum is higher than or equal to 17 and lower than 21 answer with
- * `"stop"`. If the sum is 21 answer with `"black jack"`. If the sum is higher
- * than 21 answer with `"busted"`.
- *
- * Store the response in a variable.
+/**
+* Exercise 1.4
+*
+* Create three variables: `dealer1, dealer2, dealer3`.
+*
+* Assign the values `1, 6, 7` to the variables.
+*
+* Combine the `if`, `else if`, `else` statements and the operator `AND (&&)`
+* to see what the dealer should do. Combine as you feel needed.
+*
+* If the sum of the dealercards is lower than 17, answer with `"pick"`, if
+* the sum is higher than or equal to 17 and lower than 21 answer with
+* `"stop"`. If the sum is 21 answer with `"black jack"`. If the sum is higher
+* than 21 answer with `"busted"`.
+*
+* Store the response in a variable.
  
- *
+*
  
- */
+*/
 
-  console.log('***** Exercise 1.4 *****');
+console.log('***** Exercise 1.4 *****');
 let dealer1 = 1;
 let dealer2 = 6;
 let dealer3 = 7;
@@ -104,16 +104,16 @@ let dealer3 = 7;
 totalCardSum = dealer1 + dealer2 + dealer3;
 
 if (totalCardSum < 17) {
-	status = 'pick';
+    status = 'pick';
     console.log(status);
 } else if (totalCardSum >= 17 && totalCardSum < 21) {
-	status = 'stop';
+    status = 'stop';
     console.log(status);
 } else if (totalCardSum === 21) {
-	status = 'black jack';
+    status = 'black jack';
     console.log(status);
 } else {
-	status = 'busted';
+    status = 'busted';
     console.log(status);
 }
 
@@ -146,27 +146,27 @@ if (totalCardSum < 17) {
  *
  * Write your code below and put the answer into the variable ANSWER.
  */
- 
- console.log('***** Exercise 2.1 *****');
- let myFruit = "plum";
- switch (myFruit) {
-     case "banana":
-         ANSWER = "The banana is yellow.";
-         break;
-     case "apple":
-         ANSWER = "The apple is green.";
-         break;
-     case "kiwi":
-         ANSWER = "The kiwi is green.";
-         break;
-     case "plum":
-         ANSWER = "The plum is purple.";
-         break;
-     default:
-         ANSWER = "You sir don't have the right fruit";
-         
- }
- console.log(ANSWER);
+
+console.log('***** Exercise 2.1 *****');
+let myFruit = "plum";
+switch (myFruit) {
+    case "banana":
+        ANSWER = "The banana is yellow.";
+        break;
+    case "apple":
+        ANSWER = "The apple is green.";
+        break;
+    case "kiwi":
+        ANSWER = "The kiwi is green.";
+        break;
+    case "plum":
+        ANSWER = "The plum is purple.";
+        break;
+    default:
+        ANSWER = "You sir don't have the right fruit";
+
+}
+console.log(ANSWER);
 
 /**
  * Exercise 2.2 
@@ -181,39 +181,54 @@ if (totalCardSum < 17) {
  *
  * Write your code below and put the answer into the variable ANSWER.
  */
- console.log('***** Exercise 2.2 *****');
- myFruit = "pear";
- switch (myFruit) {
-     case "banana":
-         ANSWER = "The banana is yellow.";
-         break;
-     case "apple":
-         ANSWER = "The apple is green.";
-         break;
-     case "kiwi":
-         ANSWER = "The kiwi is green.";
-         break;
-     case "plum":
-         ANSWER = "The plum is purple.";
-         break;
-     default:
-         ANSWER = "That is an unknown fruit.";
- }
- console.log(ANSWER);
+console.log('***** Exercise 2.2 *****');
+myFruit = "pear";
+switch (myFruit) {
+    case "banana":
+        ANSWER = "The banana is yellow.";
+        break;
+    case "apple":
+        ANSWER = "The apple is green.";
+        break;
+    case "kiwi":
+        ANSWER = "The kiwi is green.";
+        break;
+    case "plum":
+        ANSWER = "The plum is purple.";
+        break;
+    default:
+        ANSWER = "That is an unknown fruit.";
+}
+console.log(ANSWER);
 
- /**
- * Exercise 3.1 
- *
- * Use a `for-loop` to increment `481` with the value `6`, `10` times.
- *
- * Answer with the result.
- *
+/**
+* Exercise 3.1 
+*
+* Use a `for-loop` to increment `481` with the value `6`, `10` times.
+*
+* Answer with the result.
+*
  
- */
+*/
 
-  console.log('***** Exercise 3.1 *****');
+console.log('***** Exercise 3.1 *****');
 result = 481;
 for (var i = 0; i < 10; i++) {
-	result += 6; 
+    result += 6;
+}
+console.log(result);
+
+/**
+ * Exercise 3.2 
+ *
+ * Use a for-loop to decrement `551` with the value `8`, `10` times.
+ *
+ * Answer with the result.
+ 
+ */
+ console.log('***** Exercise 3.2 *****');
+result = 551;
+for (var i = 0; i < 10; i++) {
+    result -= 8;
 }
 console.log(result);
