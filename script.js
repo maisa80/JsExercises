@@ -208,7 +208,7 @@ if (totalCardSum < 17) {
  *
  * Answer with the result.
  *
- * Write your code below and put the answer into the variable ANSWER.
+ 
  */
 
   console.log('***** Exercise 3.1 *****');
