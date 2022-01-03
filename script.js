@@ -271,3 +271,22 @@ while (value < 481) {
 	counter++;
 	console.log('Value is: ' + value + ' and the counter is: ' + counter);
 }
+/**
+ * Exercise 4.2 
+ *
+ * Use a while-loop to subtract `8` from `551` until the value has reached or
+ * passed `0`.
+ *
+ * Answer with the amount of steps needed.
+ *
+ * Write your code below and put the answer into the variable ANSWER.
+ */
+ console.log('***** Exercise 4.1 *****');
+ value = 551;
+ counter = 0;
+ while (value > 0) {
+     value -= 8;
+     counter++;
+     console.log('Value is: ' + value + ' and the counter is: ' + counter);
+ }
+ 
