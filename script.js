@@ -226,9 +226,48 @@ console.log(result);
  * Answer with the result.
  
  */
- console.log('***** Exercise 3.2 *****');
+console.log('***** Exercise 3.2 *****');
 result = 551;
 for (var i = 0; i < 10; i++) {
     result -= 8;
 }
 console.log(result);
+
+/**
+ * Exercise 3.3 
+ *
+ * Use a for-loop to add all the even values in the range `22` to `45` to a
+ * string with each number separated by a comma `,`.
+ *
+ * The result should not end with a comma. You should neither have a space
+ * after the comma.
+ *
+ * Answer with the resulting string.
+ */
+
+
+ console.log('***** Exercise 3.3 *****');
+result = '';
+for (let i = 22; i <= 45; i += 2) {
+    result += i + ',';
+}
+console.log(result);
+
+/**
+ * Exercise 4.1 
+ *
+ * Use a `while-loop` to increment `10` with the value `6` until it has
+ * reached or passed `481`.
+ *
+ * Answer with the amount of steps needed.
+ 
+ */
+
+ console.log('***** Exercise 4.1 *****');
+let value = 10;
+let counter = 0;
+while (value < 481) {
+	value += 6;
+	counter++;
+	console.log('Value is: ' + value + ' and the counter is: ' + counter);
+}
