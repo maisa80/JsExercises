@@ -168,4 +168,52 @@ if (totalCardSum < 17) {
  }
  console.log(ANSWER);
 
+/**
+ * Exercise 2.2 
+ *
+ * Extend your switch-case statement with a `default value`. The result should
+ * be:
+ *
+ * `"That is an unknown fruit."` when the variable 'myFruit' has an unknown
+ * value.
+ *
+ * Answer with the result where 'myFruit = pear'.
+ *
+ * Write your code below and put the answer into the variable ANSWER.
+ */
+ console.log('***** Exercise 2.2 *****');
+ myFruit = "pear";
+ switch (myFruit) {
+     case "banana":
+         ANSWER = "The banana is yellow.";
+         break;
+     case "apple":
+         ANSWER = "The apple is green.";
+         break;
+     case "kiwi":
+         ANSWER = "The kiwi is green.";
+         break;
+     case "plum":
+         ANSWER = "The plum is purple.";
+         break;
+     default:
+         ANSWER = "That is an unknown fruit.";
+ }
+ console.log(ANSWER);
 
+ /**
+ * Exercise 3.1 
+ *
+ * Use a `for-loop` to increment `481` with the value `6`, `10` times.
+ *
+ * Answer with the result.
+ *
+ * Write your code below and put the answer into the variable ANSWER.
+ */
+
+  console.log('***** Exercise 3.1 *****');
+result = 481;
+for (var i = 0; i < 10; i++) {
+	result += 6; 
+}
+console.log(result);
